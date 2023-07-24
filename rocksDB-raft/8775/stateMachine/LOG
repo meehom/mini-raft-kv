@@ -1,0 +1,181 @@
+2023/07/24-21:46:43.450902 305af2000 RocksDB version: 5.14.3
+2023/07/24-21:46:43.450940 305af2000 Git sha rocksdb_build_git_sha:626550343f861ab19d4fdcb74fde728a6c043e6a
+2023/07/24-21:46:43.450942 305af2000 Compile date Oct  9 2018
+2023/07/24-21:46:43.450944 305af2000 DB SUMMARY
+2023/07/24-21:46:43.450974 305af2000 SST files in ./rocksDB-raft/8775/stateMachine dir, Total Num: 0, files: 
+2023/07/24-21:46:43.450976 305af2000 Write Ahead Log file in ./rocksDB-raft/8775/stateMachine: 
+2023/07/24-21:46:43.450977 305af2000                         Options.error_if_exists: 0
+2023/07/24-21:46:43.450979 305af2000                       Options.create_if_missing: 1
+2023/07/24-21:46:43.450980 305af2000                         Options.paranoid_checks: 1
+2023/07/24-21:46:43.450981 305af2000                                     Options.env: 0x127b76af8
+2023/07/24-21:46:43.450982 305af2000                                Options.info_log: 0x6000006bd5e0
+2023/07/24-21:46:43.450983 305af2000                Options.max_file_opening_threads: 16
+2023/07/24-21:46:43.450983 305af2000                              Options.statistics: 0x0
+2023/07/24-21:46:43.450984 305af2000                               Options.use_fsync: 0
+2023/07/24-21:46:43.450985 305af2000                       Options.max_log_file_size: 0
+2023/07/24-21:46:43.450986 305af2000                  Options.max_manifest_file_size: 18446744073709551615
+2023/07/24-21:46:43.450987 305af2000                   Options.log_file_time_to_roll: 0
+2023/07/24-21:46:43.450988 305af2000                       Options.keep_log_file_num: 1000
+2023/07/24-21:46:43.450989 305af2000                    Options.recycle_log_file_num: 0
+2023/07/24-21:46:43.450990 305af2000                         Options.allow_fallocate: 1
+2023/07/24-21:46:43.450991 305af2000                        Options.allow_mmap_reads: 0
+2023/07/24-21:46:43.450992 305af2000                       Options.allow_mmap_writes: 0
+2023/07/24-21:46:43.450993 305af2000                        Options.use_direct_reads: 0
+2023/07/24-21:46:43.450993 305af2000                        Options.use_direct_io_for_flush_and_compaction: 0
+2023/07/24-21:46:43.450994 305af2000          Options.create_missing_column_families: 0
+2023/07/24-21:46:43.450995 305af2000                              Options.db_log_dir: 
+2023/07/24-21:46:43.450996 305af2000                                 Options.wal_dir: ./rocksDB-raft/8775/stateMachine
+2023/07/24-21:46:43.450996 305af2000                Options.table_cache_numshardbits: 6
+2023/07/24-21:46:43.450997 305af2000                      Options.max_subcompactions: 1
+2023/07/24-21:46:43.450998 305af2000                  Options.max_background_flushes: -1
+2023/07/24-21:46:43.450999 305af2000                         Options.WAL_ttl_seconds: 0
+2023/07/24-21:46:43.451011 305af2000                       Options.WAL_size_limit_MB: 0
+2023/07/24-21:46:43.451016 305af2000             Options.manifest_preallocation_size: 4194304
+2023/07/24-21:46:43.451017 305af2000                     Options.is_fd_close_on_exec: 1
+2023/07/24-21:46:43.451018 305af2000                   Options.advise_random_on_open: 1
+2023/07/24-21:46:43.451019 305af2000                    Options.db_write_buffer_size: 0
+2023/07/24-21:46:43.451019 305af2000                    Options.write_buffer_manager: 0x600002bbb6c0
+2023/07/24-21:46:43.451020 305af2000         Options.access_hint_on_compaction_start: 1
+2023/07/24-21:46:43.451021 305af2000  Options.new_table_reader_for_compaction_inputs: 0
+2023/07/24-21:46:43.451022 305af2000           Options.random_access_max_buffer_size: 1048576
+2023/07/24-21:46:43.451022 305af2000                      Options.use_adaptive_mutex: 0
+2023/07/24-21:46:43.451023 305af2000                            Options.rate_limiter: 0x0
+2023/07/24-21:46:43.451024 305af2000     Options.sst_file_manager.rate_bytes_per_sec: 0
+2023/07/24-21:46:43.451025 305af2000                       Options.wal_recovery_mode: 2
+2023/07/24-21:46:43.451026 305af2000                  Options.enable_thread_tracking: 0
+2023/07/24-21:46:43.451026 305af2000                  Options.enable_pipelined_write: 0
+2023/07/24-21:46:43.451027 305af2000         Options.allow_concurrent_memtable_write: 1
+2023/07/24-21:46:43.451047 305af2000      Options.enable_write_thread_adaptive_yield: 1
+2023/07/24-21:46:43.451049 305af2000             Options.write_thread_max_yield_usec: 100
+2023/07/24-21:46:43.451049 305af2000            Options.write_thread_slow_yield_usec: 3
+2023/07/24-21:46:43.451050 305af2000                               Options.row_cache: None
+2023/07/24-21:46:43.451051 305af2000                              Options.wal_filter: None
+2023/07/24-21:46:43.451052 305af2000             Options.avoid_flush_during_recovery: 0
+2023/07/24-21:46:43.451052 305af2000             Options.allow_ingest_behind: 0
+2023/07/24-21:46:43.451053 305af2000             Options.preserve_deletes: 0
+2023/07/24-21:46:43.451054 305af2000             Options.two_write_queues: 0
+2023/07/24-21:46:43.451054 305af2000             Options.manual_wal_flush: 0
+2023/07/24-21:46:43.451055 305af2000             Options.max_background_jobs: 2
+2023/07/24-21:46:43.451056 305af2000             Options.max_background_compactions: -1
+2023/07/24-21:46:43.451056 305af2000             Options.avoid_flush_during_shutdown: 0
+2023/07/24-21:46:43.451057 305af2000           Options.writable_file_max_buffer_size: 1048576
+2023/07/24-21:46:43.451058 305af2000             Options.delayed_write_rate : 16777216
+2023/07/24-21:46:43.451059 305af2000             Options.max_total_wal_size: 0
+2023/07/24-21:46:43.451059 305af2000             Options.delete_obsolete_files_period_micros: 21600000000
+2023/07/24-21:46:43.451060 305af2000                   Options.stats_dump_period_sec: 600
+2023/07/24-21:46:43.451061 305af2000                          Options.max_open_files: -1
+2023/07/24-21:46:43.451062 305af2000                          Options.bytes_per_sync: 0
+2023/07/24-21:46:43.451062 305af2000                      Options.wal_bytes_per_sync: 0
+2023/07/24-21:46:43.451063 305af2000       Options.compaction_readahead_size: 0
+2023/07/24-21:46:43.451064 305af2000 Compression algorithms supported:
+2023/07/24-21:46:43.451070 305af2000 	kZSTD supported: 1
+2023/07/24-21:46:43.451071 305af2000 	kZlibCompression supported: 1
+2023/07/24-21:46:43.451082 305af2000 	kXpressCompression supported: 0
+2023/07/24-21:46:43.451083 305af2000 	kSnappyCompression supported: 1
+2023/07/24-21:46:43.451084 305af2000 	kZSTDNotFinalCompression supported: 1
+2023/07/24-21:46:43.451085 305af2000 	kLZ4HCCompression supported: 1
+2023/07/24-21:46:43.451085 305af2000 	kLZ4Compression supported: 1
+2023/07/24-21:46:43.451086 305af2000 	kBZip2Compression supported: 1
+2023/07/24-21:46:43.451088 305af2000 Fast CRC32 supported: Not supported on x86
+2023/07/24-21:46:43.451187 305af2000 [db/db_impl_open.cc:222] Creating manifest 1 
+2023/07/24-21:46:43.451689 305af2000 [db/version_set.cc:3085] Recovering from manifest file: MANIFEST-000001
+2023/07/24-21:46:43.451730 305af2000 [db/column_family.cc:475] --------------- Options for column family [default]:
+2023/07/24-21:46:43.451732 305af2000               Options.comparator: leveldb.BytewiseComparator
+2023/07/24-21:46:43.451733 305af2000           Options.merge_operator: None
+2023/07/24-21:46:43.451733 305af2000        Options.compaction_filter: None
+2023/07/24-21:46:43.451734 305af2000        Options.compaction_filter_factory: None
+2023/07/24-21:46:43.451735 305af2000         Options.memtable_factory: SkipListFactory
+2023/07/24-21:46:43.451736 305af2000            Options.table_factory: BlockBasedTable
+2023/07/24-21:46:43.451754 305af2000            table_factory options:   flush_block_policy_factory: FlushBlockBySizePolicyFactory (0x6000027acb50)
+  cache_index_and_filter_blocks: 0
+  cache_index_and_filter_blocks_with_high_priority: 0
+  pin_l0_filter_and_index_blocks_in_cache: 0
+  index_type: 0
+  hash_index_allow_collision: 1
+  checksum: 1
+  no_block_cache: 0
+  block_cache: 0x6000017b8498
+  block_cache_name: LRUCache
+  block_cache_options:
+    capacity : 8388608
+    num_shard_bits : 4
+    strict_capacity_limit : 0
+    high_pri_pool_ratio: 0.000
+  block_cache_compressed: 0x0
+  persistent_cache: 0x0
+  block_size: 4096
+  block_size_deviation: 10
+  block_restart_interval: 16
+  index_block_restart_interval: 1
+  metadata_block_size: 4096
+  partition_filters: 0
+  use_delta_encoding: 1
+  filter_policy: nullptr
+  whole_key_filtering: 1
+  verify_compression: 0
+  read_amp_bytes_per_bit: 0
+  format_version: 2
+  enable_index_compression: 1
+  block_align: 0
+2023/07/24-21:46:43.451765 305af2000        Options.write_buffer_size: 67108864
+2023/07/24-21:46:43.451767 305af2000  Options.max_write_buffer_number: 2
+2023/07/24-21:46:43.451768 305af2000          Options.compression: Snappy
+2023/07/24-21:46:43.451769 305af2000                  Options.bottommost_compression: Disabled
+2023/07/24-21:46:43.451769 305af2000       Options.prefix_extractor: nullptr
+2023/07/24-21:46:43.451770 305af2000   Options.memtable_insert_with_hint_prefix_extractor: nullptr
+2023/07/24-21:46:43.451771 305af2000             Options.num_levels: 7
+2023/07/24-21:46:43.451772 305af2000        Options.min_write_buffer_number_to_merge: 1
+2023/07/24-21:46:43.451772 305af2000     Options.max_write_buffer_number_to_maintain: 0
+2023/07/24-21:46:43.451773 305af2000            Options.compression_opts.window_bits: -14
+2023/07/24-21:46:43.451774 305af2000                  Options.compression_opts.level: -1
+2023/07/24-21:46:43.451774 305af2000               Options.compression_opts.strategy: 0
+2023/07/24-21:46:43.451775 305af2000         Options.compression_opts.max_dict_bytes: 0
+2023/07/24-21:46:43.451776 305af2000         Options.compression_opts.zstd_max_train_bytes: 0
+2023/07/24-21:46:43.451777 305af2000      Options.level0_file_num_compaction_trigger: 4
+2023/07/24-21:46:43.451777 305af2000          Options.level0_slowdown_writes_trigger: 20
+2023/07/24-21:46:43.451778 305af2000              Options.level0_stop_writes_trigger: 36
+2023/07/24-21:46:43.451779 305af2000                   Options.target_file_size_base: 67108864
+2023/07/24-21:46:43.451779 305af2000             Options.target_file_size_multiplier: 1
+2023/07/24-21:46:43.451780 305af2000                Options.max_bytes_for_level_base: 268435456
+2023/07/24-21:46:43.451781 305af2000 Options.level_compaction_dynamic_level_bytes: 0
+2023/07/24-21:46:43.451782 305af2000          Options.max_bytes_for_level_multiplier: 10.000000
+2023/07/24-21:46:43.451783 305af2000 Options.max_bytes_for_level_multiplier_addtl[0]: 1
+2023/07/24-21:46:43.451785 305af2000 Options.max_bytes_for_level_multiplier_addtl[1]: 1
+2023/07/24-21:46:43.451786 305af2000 Options.max_bytes_for_level_multiplier_addtl[2]: 1
+2023/07/24-21:46:43.451787 305af2000 Options.max_bytes_for_level_multiplier_addtl[3]: 1
+2023/07/24-21:46:43.451788 305af2000 Options.max_bytes_for_level_multiplier_addtl[4]: 1
+2023/07/24-21:46:43.451788 305af2000 Options.max_bytes_for_level_multiplier_addtl[5]: 1
+2023/07/24-21:46:43.451789 305af2000 Options.max_bytes_for_level_multiplier_addtl[6]: 1
+2023/07/24-21:46:43.451790 305af2000       Options.max_sequential_skip_in_iterations: 8
+2023/07/24-21:46:43.451790 305af2000                    Options.max_compaction_bytes: 1677721600
+2023/07/24-21:46:43.451791 305af2000                        Options.arena_block_size: 8388608
+2023/07/24-21:46:43.451792 305af2000   Options.soft_pending_compaction_bytes_limit: 68719476736
+2023/07/24-21:46:43.451793 305af2000   Options.hard_pending_compaction_bytes_limit: 274877906944
+2023/07/24-21:46:43.451793 305af2000       Options.rate_limit_delay_max_milliseconds: 100
+2023/07/24-21:46:43.451794 305af2000                Options.disable_auto_compactions: 0
+2023/07/24-21:46:43.451795 305af2000                        Options.compaction_style: kCompactionStyleLevel
+2023/07/24-21:46:43.451797 305af2000                          Options.compaction_pri: kByCompensatedSize
+2023/07/24-21:46:43.451798 305af2000 Options.compaction_options_universal.size_ratio: 1
+2023/07/24-21:46:43.451799 305af2000 Options.compaction_options_universal.min_merge_width: 2
+2023/07/24-21:46:43.451799 305af2000 Options.compaction_options_universal.max_merge_width: 4294967295
+2023/07/24-21:46:43.451800 305af2000 Options.compaction_options_universal.max_size_amplification_percent: 200
+2023/07/24-21:46:43.451807 305af2000 Options.compaction_options_universal.compression_size_percent: -1
+2023/07/24-21:46:43.451809 305af2000 Options.compaction_options_universal.stop_style: kCompactionStopStyleTotalSize
+2023/07/24-21:46:43.451809 305af2000 Options.compaction_options_fifo.max_table_files_size: 1073741824
+2023/07/24-21:46:43.451810 305af2000 Options.compaction_options_fifo.allow_compaction: 0
+2023/07/24-21:46:43.451811 305af2000 Options.compaction_options_fifo.ttl: 0
+2023/07/24-21:46:43.451812 305af2000                   Options.table_properties_collectors: 
+2023/07/24-21:46:43.451813 305af2000                   Options.inplace_update_support: 0
+2023/07/24-21:46:43.451814 305af2000                 Options.inplace_update_num_locks: 10000
+2023/07/24-21:46:43.451814 305af2000               Options.memtable_prefix_bloom_size_ratio: 0.000000
+2023/07/24-21:46:43.451815 305af2000   Options.memtable_huge_page_size: 0
+2023/07/24-21:46:43.451816 305af2000                           Options.bloom_locality: 0
+2023/07/24-21:46:43.451817 305af2000                    Options.max_successive_merges: 0
+2023/07/24-21:46:43.451817 305af2000                Options.optimize_filters_for_hits: 0
+2023/07/24-21:46:43.451818 305af2000                Options.paranoid_file_checks: 0
+2023/07/24-21:46:43.451819 305af2000                Options.force_consistency_checks: 0
+2023/07/24-21:46:43.451820 305af2000                Options.report_bg_io_stats: 0
+2023/07/24-21:46:43.451820 305af2000                               Options.ttl: 0
+2023/07/24-21:46:43.452510 305af2000 [db/version_set.cc:3361] Recovered from manifest file:./rocksDB-raft/8775/stateMachine/MANIFEST-000001 succeeded,manifest_file_number is 1, next_file_number is 3, last_sequence is 0, log_number is 0,prev_log_number is 0,max_column_family is 0,min_log_number_to_keep is 0
+2023/07/24-21:46:43.452517 305af2000 [db/version_set.cc:3369] Column family [default] (ID 0), log number is 0
+2023/07/24-21:46:43.454103 305af2000 [db/db_impl_open.cc:1219] DB pointer 0x7fab411d9400
